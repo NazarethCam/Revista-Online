@@ -31,6 +31,7 @@
 
     &__about{
       width:100%;
+      border-bottom: 0.0625rem solid gray;
     }
 
     &__pinned{
@@ -43,7 +44,7 @@
       }
     }
   }
-
+}
   .main-tags{
     margin-bottom: 0.9375rem;
     
@@ -58,10 +59,14 @@
     background-color: steelblue;
     list-style-type: none;
     margin-bottom:1.25rem;
+    text-decoration: none;
     
     }
-}
 
+}
+.menu__links-1{
+  text-decoration: none;
+}
 .tags__box{
     border-bottom: 0.0625rem solid gray;
 }
@@ -83,4 +88,3 @@
 }
 
 
-}
