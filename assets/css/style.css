@@ -2,6 +2,10 @@ body {
   font-family: monospace;
 }
 
+body {
+  max-width: 1200px;
+}
+
 .nav {
   width: 90%;
   margin: 0 auto;
