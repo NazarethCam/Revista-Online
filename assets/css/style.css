@@ -3,6 +3,9 @@ body {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   max-width: 1200px;
 }
 
@@ -24,7 +27,7 @@ body {
 
 .nav__links {
   float: right;
-  width: 55.7rem;
+  width: 57.7rem;
   text-align: right;
   list-style-type: none;
 }
