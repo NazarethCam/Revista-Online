@@ -381,7 +381,7 @@ body {
     font-weight: 900;
   }
   .sidebar__pinned img {
-    width: 100%;
+    width: 16vw;
     object-fit: cover;
   }
 }
@@ -405,10 +405,6 @@ body {
   background-color: steelblue;
   list-style-type: none;
   margin-bottom: 1.25rem;
-  text-decoration: none;
-}
-
-.menu__links-1 {
   text-decoration: none;
 }
 
