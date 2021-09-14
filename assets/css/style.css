@@ -381,7 +381,7 @@ body {
     font-weight: 900;
   }
   .sidebar__pinned img {
-    width: 16vw;
+    width: 14vw;
     object-fit: cover;
   }
 }
