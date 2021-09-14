@@ -1,7 +1,7 @@
 .nav{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     padding: 1.125rem;
-    margin-right:0;
     display: flex;  
     align-items: center;
     align-content:space-between;
@@ -16,7 +16,7 @@
 
 .nav__links {
     float: right;
-    width: 60.7rem;
+    width: 55.7rem;
     text-align: right;
     list-style-type: none;
 }
@@ -24,7 +24,10 @@
 .nav__input {
     border-radius: 1.875rem;
     margin-right: 1rem;
-  
+    @include respond-to('medium'){
+        margin-right: 1rem;
+      
+    }
 }
 
 

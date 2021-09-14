@@ -2,7 +2,7 @@
     margin: auto;
     width: 95%;
     @include respond-to('medium'){
-      width: 80%;
+      width: 85%;
     }
 }
 
@@ -20,6 +20,7 @@
     object-fit: cover;
     @include respond-to('medium'){
       height: 100%;
+      width: 100%;
     }
     
   }
@@ -46,7 +47,7 @@
         font-weight: 900;
       }
       img {
-        width:14vw;
+        width:16vw;
         object-fit: cover;
       }
     }
